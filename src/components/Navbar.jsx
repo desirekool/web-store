@@ -49,7 +49,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal">nav links</ul>
+          <ul className="menu menu-horizontal">
+            <NavLinks />
+          </ul>
         </div>
         <div className="navbar-end">
           <label className='swap swap-rotate'>
